@@ -2,10 +2,11 @@
   "name": "motor_comparison_server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "build": "babel src -d dist",
+    "dev": "nodemon src/app.js --exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,13 @@
   },
   "homepage": "https://github.com/ronaldoregis/motor_comparison_server#readme",
   "dependencies": {
+    "@babel/node": "^7.6.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
     "nodemon": "^1.19.2"
   }
 }
