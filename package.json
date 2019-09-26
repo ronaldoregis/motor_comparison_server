@@ -1,0 +1,26 @@
+{
+  "name": "motor_comparison_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldoregis/motor_comparison_server.git"
+  },
+  "author": "Ronaldo Regis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronaldoregis/motor_comparison_server/issues"
+  },
+  "homepage": "https://github.com/ronaldoregis/motor_comparison_server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
